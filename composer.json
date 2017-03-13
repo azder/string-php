@@ -1,0 +1,13 @@
+{
+  "name": "azder/string",
+  "description": "A PHP helper library to STRING things up",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/string.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
