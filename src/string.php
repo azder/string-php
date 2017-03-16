@@ -3,15 +3,24 @@
 
 namespace Azder\S;
 
-const string_empty = '';
-const string_space = ' ';
-const string_aster = '*';
-const string_ellip = '...';
+const string_empty    = '';
+const string_space    = ' ';
+const string_aster    = '*';
+const string_ellipsis = '...';
+const string_at       = '@';
+const string_hash     = '#';
+const string_bang     = '!';
+const string_shebang  = '#!';
 
 
 function concat( ...$args ): string
 {
     return implode( string_empty, $args );
+}
+
+function spaceout( ...$args ): string
+{
+    return implode( string_space, $args );
 }
 
 
