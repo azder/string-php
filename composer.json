@@ -4,7 +4,8 @@
   "license": "MIT",
   "autoload": {
     "files": [
-      "src/string.php"
+      "src/string.php",
+      "src/json.php"
     ]
   },
   "require": {
