@@ -1,7 +1,7 @@
 <?php
 /** Created by User: azder on Date: 18/03/2017 */
 
-namespace Azder\S\Json;
+namespace S\Json;
 
 
 function prettyfy( $value )

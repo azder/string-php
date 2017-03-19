@@ -1,7 +1,7 @@
 <?php
 /** Created by User: azder on Date: 13/03/2017 */
 
-namespace Azder\S;
+namespace S;
 
 const string_empty    = '';
 const string_space    = ' ';
