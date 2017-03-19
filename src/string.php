@@ -1,7 +1,7 @@
 <?php
 /** Created by User: azder on Date: 13/03/2017 */
 
-namespace Azder\S;
+namespace S;
 
 const string_empty    = '';
 const string_space    = ' ';
@@ -11,7 +11,8 @@ const string_at       = '@';
 const string_hash     = '#';
 const string_bang     = '!';
 const string_shebang  = '#!';
-
+const string_grave    = '`';
+const string_dash     = '-';
 
 function concat( ...$args ): string
 {
@@ -37,6 +38,25 @@ function gluer( string $glue ): callable
     };
 }
 
+function brace( $value ): string
+{
+    return '{' . $value . '}';
+}
+
+function bracket( $value ): string
+{
+    return '[' . $value . ']';
+}
+
+function paren( $value ): string
+{
+    return '(' . $value . ')';
+}
+
+function angle( $value ): string
+{
+    return '<' . $value . '>';
+}
 
 function wrap( string $wrap, $value ): string
 {
